@@ -1,0 +1,52 @@
+
+.App{
+ 
+}
+
+
+.header{
+  background-image: url('/rikm.gif');
+  background-repeat: no-repeat;
+  background-size: 100% 90vmin;
+
+  height: 50vmin;
+}
+
+.coponents-filter{
+  width: 100%;
+  height: 60px;
+  background: chocolate;
+
+  position: relative;
+  
+}
+
+.container-filter{
+  width: 80%;
+  height: 13vmin;
+  background: rgb(30, 210, 120);
+  position: absolute;
+  top: -4vmin;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+ 
+}
+.container-card{
+  width: 80%;
+  height: 100vh;
+  background: azure;
+  margin: 0 auto;
+}
+
+.card{
+  width: 200px;
+  height: 400px;
+  background: chartreuse;
+  margin: 30px;
+}
+
+.conatiner-footer{
+  background: gray;
+  height: 300px
+}
