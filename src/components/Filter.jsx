@@ -32,7 +32,7 @@ const Filter = ({rikmar}) => {
 
                         <input className='input-search' type="text" 
                         value={serach} 
-                        placeholder='Name Riqui and Morty'
+                        placeholder='Name Rick And Morty'
                         onChange={e=>setSeacrh(e.target.value)} /> 
                         
                         <button className='button-search' onClick={Search}>Search</button>
