@@ -20,24 +20,27 @@
  
   width: 100%;
   height: auto;
-  top: -4vmin;
-  left: 0;
-  right: 0;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
- 
   align-items: center;
- 
   gap: 20px;
+  
  
 }
-.container-search{
 
-  width: 80%;
+.container-search-gen{
   display: flex;
+  width: 80%;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
+
+}
+.container-search{
+  display: flex;
+  width: 80%;
   padding: 20px;
   gap: 5px;
 
@@ -49,6 +52,8 @@
   text-align: center;
   border-radius:10px;
   font-size: 3vmin;
+ 
+  
 }
 .button-search{
   width: 30vmin;
@@ -65,7 +70,53 @@
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+  box-shadow: 2px 2px 8px white;
+  border: none;
 }
+.container-button-index{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 0px 10px 0px 10px;
+  justify-content: center;
+}
+
+.bt-prev-next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.button-pag{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.button-pag:hover{
+
+  box-shadow: 2px 2px 8px rgb(255, 255, 255);
+}
+
+.container-list-sugerents{
+  border-radius: 5px;
+  padding: 0px 30px 20px 20px;
+ 
+}
+.list-sugerents{
+  list-style: none;
+  color: rgb(255, 255, 255);
+  
+}
+
+.list-sugerents:hover{
+  color: rgb(253, 38, 38);
+}
+
 
 .description{
   width: 80%;
